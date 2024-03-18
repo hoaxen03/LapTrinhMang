@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai_Tap_Tuan_1", "Bai_Tap_Tuan_1\Bai_Tap_Tuan_1.csproj", "{F72F0A4C-A050-492B-9E4C-D1286B945507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_Tap_Tuan_2", "..\Bai_Tap_Tuan_2\Bai_Tap_Tuan_2.csproj", "{535F43FE-B217-4FC3-8C7C-2D3CE7636462}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F72F0A4C-A050-492B-9E4C-D1286B945507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72F0A4C-A050-492B-9E4C-D1286B945507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72F0A4C-A050-492B-9E4C-D1286B945507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72F0A4C-A050-492B-9E4C-D1286B945507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535F43FE-B217-4FC3-8C7C-2D3CE7636462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535F43FE-B217-4FC3-8C7C-2D3CE7636462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535F43FE-B217-4FC3-8C7C-2D3CE7636462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535F43FE-B217-4FC3-8C7C-2D3CE7636462}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C670626-1E5F-4255-A164-61C3D8782DC1}
+	EndGlobalSection
+EndGlobal
