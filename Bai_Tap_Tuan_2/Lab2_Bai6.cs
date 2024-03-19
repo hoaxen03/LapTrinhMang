@@ -39,7 +39,7 @@ namespace Bai_Tap_Tuan_2
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error opening file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Xảy ra lỗi khi mở tệp: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -83,7 +83,7 @@ namespace Bai_Tap_Tuan_2
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error saving file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Lỗi khi lưu tệp: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void btnSearch_Click(object sender, EventArgs e)
@@ -96,11 +96,11 @@ namespace Bai_Tap_Tuan_2
                 {
                     txtEditor.Select(index, searchText.Length);
                     txtEditor.ScrollToCaret();
-                    MessageBox.Show($"Text found at position {index}.", "Search Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show($"Văn bản đã được tìm thấy ở vị trí {index}.", "Kết quả tìm kiếm", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Text not found.", "Search Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Không tìm thấy văn bản.", "Kết quả tìm kiếm", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
         }

@@ -31,12 +31,12 @@ namespace Bai_Tap_Tuan_2
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error encoding: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Lỗi khi mã hóa: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("Please enter text to encode.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Vui lòng nhập văn bản để mã hóa.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -55,16 +55,16 @@ namespace Bai_Tap_Tuan_2
                 }
                 catch (FormatException)
                 {
-                    MessageBox.Show("Invalid Base64 format.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Không đúng định dạng Base64.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error decoding: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Lỗi khi giải mã: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("Please enter text to decode.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Vui lòng nhập kí tự giải mã.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

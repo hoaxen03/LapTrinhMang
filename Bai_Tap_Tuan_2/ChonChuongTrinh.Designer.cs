@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChonChuongTrinh));
             label1 = new Label();
             button1 = new Button();
             button2 = new Button();
@@ -41,6 +42,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Linen;
             label1.Font = new Font("Lemonada", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.LightCoral;
             label1.Location = new Point(35, 24);
@@ -123,6 +125,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 255);
             Controls.Add(button7);
             Controls.Add(button6);
@@ -133,7 +137,7 @@
             Controls.Add(button1);
             Controls.Add(label1);
             Name = "ChonChuongTrinh";
-            Text = "Form1";
+            Text = "Chọn chương trình";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -56,6 +56,7 @@
             button1.TabIndex = 2;
             button1.Text = "Mã hóa";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += EncodeButton_Click;
             // 
             // button2
             // 
@@ -65,6 +66,7 @@
             button2.TabIndex = 3;
             button2.Text = "Giải mã";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += DecodeButton_Click;
             // 
             // Lab2_Bai7
             // 

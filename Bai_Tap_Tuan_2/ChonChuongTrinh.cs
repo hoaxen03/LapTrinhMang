@@ -42,8 +42,8 @@ namespace Bai_Tap_Tuan_2
         }
         private void button7_Click(object sender, EventArgs e)
         {
-            Lab2_Bai8 lab2_Bai8 = new Lab2_Bai8();
-            lab2_Bai8.ShowDialog();
+            Lab2_Bai8 f4 = new Lab2_Bai8();
+            f4.ShowDialog();
         }
     }
 }

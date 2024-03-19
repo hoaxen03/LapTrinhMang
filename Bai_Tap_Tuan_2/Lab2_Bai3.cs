@@ -41,7 +41,7 @@ namespace Bai_Tap_Tuan_2
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show($"Error opening file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show($"Xảy ra lỗi khi mở tệp: {ex.Message}", "Tệp", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
         }
@@ -85,7 +85,7 @@ namespace Bai_Tap_Tuan_2
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error saving file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Lỗi khi lưu tệp: {ex.Message}", "Lưu tệp", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
