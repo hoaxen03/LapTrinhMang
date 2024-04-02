@@ -5,7 +5,15 @@ VisualStudioVersion = 17.10.34607.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai_Tap_Tuan_1", "Bai_Tap_Tuan_1\Bai_Tap_Tuan_1.csproj", "{F72F0A4C-A050-492B-9E4C-D1286B945507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_Tap_Tuan_2", "..\Bai_Tap_Tuan_2\Bai_Tap_Tuan_2.csproj", "{535F43FE-B217-4FC3-8C7C-2D3CE7636462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai_Tap_Tuan_2", "..\Bai_Tap_Tuan_2\Bai_Tap_Tuan_2.csproj", "{535F43FE-B217-4FC3-8C7C-2D3CE7636462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_Tap_Tuan_3_Socket_Server", "..\Bai_Tap_Tuan_3_Socket_Server\Bai_Tap_Tuan_3_Socket_Server.csproj", "{30C66AC0-B3D1-4567-B670-7FA0A49D0B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_Tap_Tuan_3_SocketClient", "Bai_Tap_Tuan_3_SocketClient\Bai_Tap_Tuan_3_SocketClient.csproj", "{9CAB47A8-C6C6-4E29-A60E-58FF42489266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTVN_Socket_Server_test", "..\BTVN_Socket_Server_test\BTVN_Socket_Server_test.csproj", "{B7232D6B-8C9C-4339-8603-83EE14DB9407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTVN_Socket_Client_test", "..\BTVN_Socket_Client_test\BTVN_Socket_Client_test.csproj", "{CF718696-E88B-4D55-B10B-70595237D816}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{535F43FE-B217-4FC3-8C7C-2D3CE7636462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{535F43FE-B217-4FC3-8C7C-2D3CE7636462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{535F43FE-B217-4FC3-8C7C-2D3CE7636462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C66AC0-B3D1-4567-B670-7FA0A49D0B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C66AC0-B3D1-4567-B670-7FA0A49D0B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C66AC0-B3D1-4567-B670-7FA0A49D0B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C66AC0-B3D1-4567-B670-7FA0A49D0B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAB47A8-C6C6-4E29-A60E-58FF42489266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAB47A8-C6C6-4E29-A60E-58FF42489266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAB47A8-C6C6-4E29-A60E-58FF42489266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAB47A8-C6C6-4E29-A60E-58FF42489266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7232D6B-8C9C-4339-8603-83EE14DB9407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7232D6B-8C9C-4339-8603-83EE14DB9407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7232D6B-8C9C-4339-8603-83EE14DB9407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7232D6B-8C9C-4339-8603-83EE14DB9407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF718696-E88B-4D55-B10B-70595237D816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF718696-E88B-4D55-B10B-70595237D816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF718696-E88B-4D55-B10B-70595237D816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF718696-E88B-4D55-B10B-70595237D816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
